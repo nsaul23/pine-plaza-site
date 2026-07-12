@@ -43,7 +43,7 @@ h2 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1; margin-bottom: 1rem; }
 .mobile-menu-button { display: none; border: 0; background: transparent; font-size: 1.8rem; cursor: pointer; }
 
 /* CTRL+F: HERO IMAGE */
-.hero { min-height: 650px; display: flex; align-items: center; padding: 90px 6vw; color: var(--white); background: linear-gradient(90deg, rgba(0,0,0,.68), rgba(0,0,0,.20)), url("assets/images/pine-plaza-hero-placeholder.svg"); background-size: cover; background-position: center; }
+.hero { min-height: 650px; display: flex; align-items: center; padding: 90px 6vw; color: var(--white); background: linear-gradient(90deg, rgba(0,0,0,.68), rgba(0,0,0,.20)), url("assets/images/pine-plaza-hero.jpg"); background-size: cover; background-position: center; }
 .hero-content { max-width: 860px; }
 .hero .eyebrow { color: #d8eee7; }
 .hero-copy { font-size: clamp(1.1rem, 2vw, 1.45rem); max-width: 780px; margin-bottom: .8rem; }
@@ -75,8 +75,8 @@ h2 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1; margin-bottom: 1rem; }
 
 .split-section { display: grid; grid-template-columns: 1fr 1fr; min-height: 520px; }
 .split-image { min-height: 420px; background-size: cover; background-position: center; }
-.dining-image { background-image: url("assets/images/dining-placeholder.svg"); }
-.banquet-image { background-image: url("assets/images/banquet-placeholder.svg"); }
+.dining-image { background-image: url("assets/images/pine-plaza-dining.jpg"); }
+.banquet-image { background-image: url("assets/images/pine-plaza-banquet-hall.jpg"); }
 .split-content { padding: 80px 6vw; display: flex; flex-direction: column; justify-content: center; background: var(--pine-soft); }
 .banquet-section .split-content { background: var(--white); }
 
