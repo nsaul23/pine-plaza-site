@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Pine Plaza Website V3 -->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pine Plaza | Palisades Park, NJ</title>
+  <meta name="description" content="Pine Plaza is a four-level retail, dining, wellness, service, and community destination in Palisades Park, NJ." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- CTRL+F: TOP BAR -->
+  <div class="top-bar">
+    <span id="topTagline">Four levels of shopping, dining, wellness, services and community.</span>
+    <span>English with Korean highlights · 한국어 안내 포함</span>
+  </div>
+
+  <!-- CTRL+F: HEADER NAVIGATION -->
+  <header class="site-header">
+    <a class="logo-wrap" href="#home">
+      <div class="logo-mark">松</div>
+      <div>
+        <div class="logo-text" id="navPropertyName">Pine Plaza</div>
+        <div class="logo-subtitle" id="navCityState">Palisades Park, NJ</div>
+      </div>
+    </a>
+    <button class="mobile-menu-button" id="mobileMenuButton">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#directory">Directory</a>
+      <a href="#dining">Dining</a>
+      <a href="#visit">Visit</a>
+      <a href="#parking">Parking</a>
+      <a href="#leasing">Leasing</a>
+      <a href="#events">Events</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- CTRL+F: HERO SECTION -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow" id="heroLocation">Palisades Park, NJ</p>
+        <h1>Your destination. Everyday.</h1>
+        <p class="hero-copy" id="positioningStatement"></p>
+        <p class="hero-korean" id="positioningStatementKorean"></p>
+        <div class="hero-actions">
+          <a href="#directory" class="button button-primary">Explore Directory</a>
+          <a href="#parking" class="button button-secondary">Parking Info</a>
+          <a href="#leasing" class="button button-secondary">Leasing</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTRL+F: PROPERTY HIGHLIGHTS -->
+    <section class="highlight-strip">
+      <div class="highlight-item"><span>🅿️</span><div><h3>4-Level Parking</h3><p>Structured underground parking in central Palisades Park.</p></div></div>
+      <div class="highlight-item"><span>↕️</span><div><h3>Elevator Access</h3><p>Convenient access across all retail levels.</p></div></div>
+      <div class="highlight-item"><span>🍽️</span><div><h3>Dining & Services</h3><p>Restaurants, wellness, professional services and more.</p></div></div>
+      <div class="highlight-item"><span>🇰🇷</span><div><h3>Korean Community</h3><p>Proudly serving Palisades Park and Bergen County.</p></div></div>
+    </section>
+
+    <!-- CTRL+F: DIRECTORY SECTION -->
+    <section class="section section-light" id="directory">
+      <div class="section-heading">
+        <p class="eyebrow">Directory · 입점 업체</p>
+        <h2>Explore Pine Plaza</h2>
+        <p>Find dining, health and wellness, professional services, entertainment, and community organizations.</p>
+      </div>
+      <div class="tenant-controls">
+        <button class="filter-button active" data-filter="All">All</button>
+        <button class="filter-button" data-filter="Dining">Dining</button>
+        <button class="filter-button" data-filter="Health & Wellness">Health & Wellness</button>
+        <button class="filter-button" data-filter="Professional Services">Professional Services</button>
+        <button class="filter-button" data-filter="Entertainment">Entertainment</button>
+        <button class="filter-button" data-filter="Community & Nonprofit">Community & Nonprofit</button>
+      </div>
+      <div class="tenant-grid" id="tenantGrid"></div>
+    </section>
+
+    <!-- CTRL+F: DINING SECTION -->
+    <section class="split-section" id="dining">
+      <div class="split-image dining-image"></div>
+      <div class="split-content">
+        <p class="eyebrow">Dining · 다이닝</p>
+        <h2>Dining in the heart of Palisades Park.</h2>
+        <p>Pine Plaza is home to dining options serving the local Korean-American community and surrounding Bergen County neighborhoods.</p>
+        <p class="korean-line">파인 플라자에서 다양한 식사 옵션을 만나보세요.</p>
+        <a href="#directory" class="text-link">View dining directory →</a>
+      </div>
+    </section>
+
+    <!-- CTRL+F: VISIT SECTION -->
+    <section class="section section-white" id="visit">
+      <div class="section-heading">
+        <p class="eyebrow">Visit · 방문 안내</p>
+        <h2>Plan your visit.</h2>
+      </div>
+      <div class="info-card-grid">
+        <article class="info-card"><h3>Hours</h3><p id="generalHours"></p><p class="korean-line" id="generalHoursKorean"></p></article>
+        <article class="info-card"><h3>Location</h3><p id="visitAddress"></p><a id="mapLink" class="text-link" href="#" target="_blank" rel="noopener">Open in Google Maps →</a></article>
+        <article class="info-card"><h3>Access</h3><p>Four retail levels, elevator access, and structured parking for visitors.</p><p class="korean-line">엘리베이터와 지하 주차장을 이용하실 수 있습니다.</p></article>
+      </div>
+    </section>
+
+    <!-- CTRL+F: PARKING SECTION -->
+    <section class="section section-light" id="parking">
+      <div class="section-heading">
+        <p class="eyebrow">Parking · 주차 안내</p>
+        <h2 id="parkingHeadline"></h2>
+        <p id="parkingIntro"></p>
+        <p class="korean-line" id="parkingIntroKorean"></p>
+      </div>
+      <div class="info-card-grid">
+        <article class="info-card"><h3 id="shopperParkingTitle"></h3><p id="shopperParkingDescription"></p><p class="korean-line" id="shopperParkingKorean"></p><a id="parkingFormLink" class="button button-primary" href="#" target="_blank">Shopper Check-In</a></article>
+        <article class="info-card"><h3>Parking Payment</h3><p>Use the parking payment link for extensions or paid parking where applicable.</p><a id="parkingPaymentLink" class="button button-secondary button-outline" href="#" target="_blank">Pay for Parking</a></article>
+        <article class="info-card"><h3 id="monthlyParkingTitle"></h3><p id="monthlyParkingDescription"></p><p class="korean-line" id="monthlyParkingKorean"></p></article>
+      </div>
+      <ul class="rules-list" id="parkingRules"></ul>
+    </section>
+
+    <!-- CTRL+F: LEASING SECTION -->
+    <section class="leasing-section" id="leasing">
+      <div>
+        <p class="eyebrow">Leasing · 임대 문의</p>
+        <h2 id="leasingHeadline"></h2>
+        <p id="leasingIntro"></p>
+        <p class="korean-line" id="leasingIntroKorean"></p>
+        <div class="leasing-bullets">
+          <span>Four retail levels</span>
+          <span>Structured underground parking</span>
+          <span>Korean-American commercial corridor</span>
+          <span>Dining, wellness, service & community mix</span>
+        </div>
+        <a href="#contact" class="button button-primary">Contact Leasing</a>
+      </div>
+      <div class="leasing-panel">
+        <h3>Space Availability</h3>
+        <p id="availabilityNote"></p>
+        <h3>Operator Inquiries</h3>
+        <p id="operatorLanguage"></p>
+        <p class="small-note">Specific availability, floor plans, and terms are provided by inquiry.</p>
+      </div>
+    </section>
+
+    <!-- CTRL+F: BANQUET HALL SECTION -->
+    <section class="split-section banquet-section" id="banquet">
+      <div class="split-content">
+        <p class="eyebrow">Banquet Hall · 연회장</p>
+        <h2 id="banquetHeadline"></h2>
+        <p id="banquetDescription"></p>
+        <p class="korean-line" id="banquetDescriptionKorean"></p>
+        <a href="#contact" class="button button-primary" id="banquetCta">Ask About Reservations</a>
+      </div>
+      <div class="split-image banquet-image"></div>
+    </section>
+
+    <!-- CTRL+F: EVENTS SECTION -->
+    <section class="section section-light" id="events">
+      <div class="section-heading">
+        <p class="eyebrow">Events · 행사</p>
+        <h2>Events, promotions and reservations.</h2>
+      </div>
+      <div class="event-grid" id="eventGrid"></div>
+    </section>
+
+    <!-- CTRL+F: CONTACT SECTION -->
+    <section class="section section-white" id="contact">
+      <div class="contact-grid">
+        <div>
+          <p class="eyebrow">Contact · 문의</p>
+          <h2>Get in touch.</h2>
+          <p>For leasing, parking, banquet hall reservations, tenant inquiries, or general property questions, contact Pine Plaza management.</p>
+        </div>
+        <div class="contact-card">
+          <p><strong>Address</strong><br><span id="contactAddress"></span></p>
+          <p><strong>Phone</strong><br><span id="contactPhone"></span></p>
+          <p><strong>General Inquiries</strong><br><span id="contactGeneralEmail"></span></p>
+          <p><strong>Leasing</strong><br><span id="contactLeasingEmail"></span></p>
+          <p><strong>Parking</strong><br><span id="contactParkingEmail"></span></p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- CTRL+F: FOOTER -->
+  <footer class="site-footer">
+    <div><div class="footer-logo">松 Pine Plaza</div><p id="footerCity"></p></div>
+    <div><h4>Quick Links</h4><a href="#directory">Directory</a><a href="#parking">Parking</a><a href="#leasing">Leasing</a><a href="#events">Events</a></div>
+    <div><h4>About Pine Plaza</h4><p id="footerPositioning"></p></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

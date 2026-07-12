@@ -1,0 +1,22 @@
+{
+  "headline": "Convenient parking for Pine Plaza visitors.",
+  "intro": "Pine Plaza offers four levels of structured underground parking, a major convenience in the heart of Palisades Park.",
+  "introKorean": "파인 플라자는 팰리세이즈파크 중심에서 편리한 4개 층의 지하 주차장을 제공합니다.",
+  "shopperParking": {
+    "title": "Shopper Parking",
+    "description": "Pine Plaza shoppers may check in for up to two hours of parking while visiting tenants.",
+    "descriptionKorean": "파인 플라자 방문 고객은 입점 업체 이용 시 최대 2시간 주차 확인이 가능합니다.",
+    "formUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfv1HcUbE3SP5R-jgEoScX4hJtMrcvs6NyAYJW9poMLM1pGYQ/viewform?usp=header",
+    "paymentUrl": "https://buy.stripe.com/cNi5kEgh53ntbxg5Xw8k800"
+  },
+  "monthlyParking": {
+    "title": "Monthly Parking",
+    "description": "Monthly parking may be available. Contact management for current availability and rates.",
+    "descriptionKorean": "월 정기 주차는 가능 여부 및 요금 확인을 위해 관리사무소에 문의해 주세요."
+  },
+  "rules": [
+    "Parking rules, validation requirements, and rates are subject to change.",
+    "Vehicles must follow posted property rules and signage.",
+    "Individual tenant parking policies may vary."
+  ]
+}

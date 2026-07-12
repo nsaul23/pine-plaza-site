@@ -1,0 +1,20 @@
+[
+  {
+    "titleEnglish": "Banquet Hall Reservations",
+    "titleKorean": "연회장 예약",
+    "date": "Available by inquiry",
+    "descriptionEnglish": "Reserve the 4th floor banquet hall for meetings, weddings, sweet sixteens, and private events.",
+    "descriptionKorean": "회의, 결혼식, 스위트 식스틴 및 각종 개인 행사 예약 가능.",
+    "icon": "🎉",
+    "type": "Banquet Hall"
+  },
+  {
+    "titleEnglish": "Community Events",
+    "titleKorean": "커뮤니티 행사",
+    "date": "Coming soon",
+    "descriptionEnglish": "Future Pine Plaza community events and promotions will be listed here.",
+    "descriptionKorean": "향후 파인 플라자 커뮤니티 행사 및 프로모션이 이곳에 게시됩니다.",
+    "icon": "📅",
+    "type": "Mall Event"
+  }
+]
