@@ -24,7 +24,13 @@ async function loadSiteContent() {
   $("leasingHeadline").textContent = content.leasing.leasingHeadline;
   $("leasingIntro").textContent = content.leasing.leasingIntro;
   $("leasingIntroKorean").textContent = content.leasing.leasingIntroKorean;
-  $("availabilityNote").textContent = content.leasing.availabilityNote;
+  const leasingEmail = content.contact.leasingEmail;
+const leasingSubject = encodeURIComponent("Leasing Inquiry - Pine Plaza");
+
+$("availabilityNote").innerHTML = content.leasing.availabilityNote.replace(
+  "{{leasingEmail}}",
+  `<a class="text-link" href="mailto:${leasingEmail}?subject=${leasingSubject}">${leasingEmail}</a>`
+);
   $("operatorLanguage").textContent = content.leasing.operatorLanguage;
   $("banquetHeadline").textContent = content.banquetHall.headline;
   $("banquetDescription").textContent = content.banquetHall.description;
