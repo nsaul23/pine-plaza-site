@@ -22,7 +22,7 @@
     "leasingHeadline": "Bring your business to Pine Plaza!",
     "leasingIntro": "Pine Plaza offers a unique location in one of Bergen County’s most active Korean-American commercial corridors, with multi-level retail access, structured parking, elevators, and a diverse tenant mix.",
     "leasingIntroKorean": "파인 플라자는 버겐카운티의 활발한 한인 상권 중심에 위치한 다층 상업 공간입니다.",
-    "availabilityNote": "For leasing inquiries, space availability, and partnership opportunities, please contact Pine Plaza management.",
+    "availabilityNote": "For leasing inquiries, space availability, and partnership opportunities, please contact Pine Plaza management at {{leasingEmail}}.",
     "operatorLanguage": "Pine Plaza welcomes inquiries from diverse operators—ranging from retail and dining to wellness and medical, and many more"
   },
   "banquetHall": {
