@@ -40,9 +40,9 @@ $("availabilityNote").innerHTML = content.leasing.availabilityNote.replace(
   $("mapLink").href = "https://maps.google.com/?q=" + encodeURIComponent(content.contact.address);
   $("contactAddress").textContent = content.contact.address;
   $("contactPhone").textContent = content.contact.phone;
-  $("contactGeneralEmail").textContent = content.contact.generalEmail;
-  $("contactLeasingEmail").textContent = content.contact.leasingEmail;
-  $("contactParkingEmail").textContent = content.contact.parkingEmail;
+  $("contactGeneralEmail").innerHTML = `<a class="text-link" href="mailto:${content.contact.generalEmail}?subject=General%20Inquiry%20-%20Pine%20Plaza">${content.contact.generalEmail}</a>`;
+  $("contactLeasingEmail").innerHTML = `<a class="text-link" href="mailto:${content.contact.leasingEmail}?subject=Leasing%20Inquiry%20-%20Pine%20Plaza">${content.contact.leasingEmail}</a>`;
+  $("contactParkingEmail").innerHTML = `<a class="text-link" href="mailto:${content.contact.parkingEmail}?subject=Parking%20Inquiry%20-%20Pine%20Plaza">${content.contact.parkingEmail}</a>`;
   $("footerCity").textContent = content.brand.cityState;
   $("footerPositioning").textContent = content.brand.positioningStatement;
 }
