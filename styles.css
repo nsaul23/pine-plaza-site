@@ -104,6 +104,14 @@ h2 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1; margin-bottom: 1rem; }
 .site-footer a { display: block; color: rgba(255,255,255,.75); margin-bottom: 8px; }
 .site-footer p { color: rgba(255,255,255,.75); }
 .footer-logo { font-family: Georgia, 'Times New Roman', serif; font-size: 1.8rem; text-transform: uppercase; }
+.footer-logo-image {
+  height: 70px;
+  width: auto;
+  max-width: 300px;
+  object-fit: contain;
+  display: block;
+  margin-bottom: 14px;
+}
 
 /* CTRL+F: MOBILE */
 @media (max-width: 1000px) {
